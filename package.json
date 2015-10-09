@@ -1,0 +1,16 @@
+{
+  "name": "t9",
+  "version": "1.0.0",
+  "description": "t9 test",
+  "main": "serve.js",
+  "scripts": {
+    "start": "node serve.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "opener": "^1.4.1"
+  }
+}
