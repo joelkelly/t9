@@ -5,7 +5,8 @@ body{
     padding: 0;
 }
 
-.plate{
+body:after{
+    content:' ';
     position: fixed;
     z-index: -1;
     top: -10%;
