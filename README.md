@@ -2,7 +2,7 @@
 
 Finally, a technology that you can use when all other means of communication break down.  Feel the wonder of typing out full sentences in as little as 2-10 minutes (depending on your speed).
 
-This is a simple code test base heavily *(read: very little actual code was written)* on Mitch Robb's [article](http://www.mitchrobb.com/t9-in-javascript-with-a-prefix-tree/) and subsequent [code](https://github.com/olslash/t9).  Most of the work here is just adjusting the interface a bit so it was cleaner to look at and use.  It has keyboard support and usingyourmouse support (fancy).
+This is a simple code test base heavily *(read: very little actual code was written)* on Mitch Robb's [article](http://www.mitchrobb.com/t9-in-javascript-with-a-prefix-tree/) and subsequent [code](https://github.com/olslash/t9).  I also looked into [John Resig's](http://ejohn.org/blog/javascript-trie-performance-analysis/) info on Trie performance.  Most of the work here is just adjusting the interface a bit so it was cleaner to look at and use.  It has keyboard support and usingyourmouse support (fancy).
 
 Tried to keep it super simple, all vanilla javascript and no preprocessed CSS.  We are partying like it is 1999 on this one.
 
@@ -45,4 +45,4 @@ If you have a preferred server method just fire that up and point it to index.ht
 2. Finding working code and running it - 10 minutes
 3. Building a web interface - 1.25 hours
 4. Restarting my router so the Internet returned - 3 hours
-5. Obsessing over colors, borders, and misc. other things - 1 hour
+5. Obsessing over colors, borders, and misc. other things that had nothing to do with the actual coding - 1 hour
