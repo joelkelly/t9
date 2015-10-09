@@ -1,13 +1,11 @@
-body
-{
+body{
     font-family: 'Montserrat', sans-serif;
 
     margin: 0;
     padding: 0;
 }
 
-.plate
-{
+.plate{
     position: fixed;
     z-index: -1;
     top: -10%;
@@ -23,8 +21,7 @@ body
                     filter: blur(20px) grayscale(20%);
 }
 
-.keypad
-{
+.keypad{
     width: 60vw;
     height: 60vh;
     margin: 0;
@@ -32,8 +29,7 @@ body
     padding: 0;
 }
 
-.key
-{
+.key{
     position: relative;
 
     display: block;
@@ -44,13 +40,11 @@ body
     margin-right: 3vw;
 }
 
-.key:nth-child(3n+3)
-{
+.key:nth-child(3n+3){
     margin-right: 0;
 }
 
-.key a
-{
+.key a{
     font-size: 8vmin;
     line-height: 10vmin;
 
@@ -76,21 +70,18 @@ body
 }
 
 .key a:hover,
-button:hover
-{
+button:hover{
     color: #2980b9;
     background-color: rgba(255, 255, 255, .45);
 }
 
 .key a:active,
-button:active
-{
+button:active{
     color: #3498db;
     background-color: rgba(255, 255, 255, .5);
 }
 
-.key a span
-{
+.key a span{
     font-size: 2vmin;
     line-height: 2vmin;
 
@@ -102,8 +93,7 @@ button:active
             transform: translateX(-50%);
 }
 
-button
-{
+button{
     font-size: 4vmin;
     line-height: 6vmin;
 
@@ -123,8 +113,7 @@ button
     background-color: rgba(255, 255, 255, .4);
 }
 
-button span
-{
+button span{
     font-size: 2vmin;
     font-weight: 400;
     font-style: italic;
@@ -133,8 +122,7 @@ button span
 }
 
 
-section
-{
+section{
     position: absolute;
     bottom: 0;
 
@@ -149,8 +137,7 @@ section
     background-color: rgba(0, 0, 0, .4);
 }
 
-#results
-{
+#results{
     box-sizing: border-box;
     width: 100%;
     margin: 0;
@@ -160,8 +147,7 @@ section
     border-width: .25vmin 0 0;
 }
 
-#results li
-{
+#results li{
 
     font-style:italic;
     font-size: 1.5vmin;
@@ -172,8 +158,7 @@ section
     width: 33.33%;
 }
 
-#message
-{
+#message{
     font-size: 3vmin;
 
     box-sizing: border-box;
