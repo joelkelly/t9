@@ -38,3 +38,11 @@ If you have a preferred server method just fire that up and point it to index.ht
 - My Wife
 
 ---
+
+
+###Time To Completion###
+1. Doing some T9/Trie research - 1/2 an hour
+2. Finding working code and running it - 10 minutes
+3. Building a web interface - 1.25 hours
+4. Restarting my router so the Internet returned - 3 hours
+5. Obsessing over colors, borders, and misc. other things - 1 hour
